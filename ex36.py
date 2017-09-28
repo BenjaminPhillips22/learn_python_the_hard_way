@@ -19,7 +19,7 @@ while True:
     print("""
     Would you like to win the game? (press 'a')
     Would you like to go to the bank? (press 'b')
-    Would you like to go to the youth centre? (press 'c')""")
+    Would you like to go to the fountain of youth? (press 'c')""")
     choice = input("> ")
 
     if choice == 'a':

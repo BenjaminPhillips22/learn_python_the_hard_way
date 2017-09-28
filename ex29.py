@@ -1,3 +1,4 @@
+# %%
 people = 20
 cats = 30
 dogs = 15
@@ -14,7 +15,7 @@ if people < dogs:
 if people > dogs:
     print("The world is dry")
 
-
+# %%
 dogs += 5
 
 if people >= dogs:
