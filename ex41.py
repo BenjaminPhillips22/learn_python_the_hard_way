@@ -3,7 +3,7 @@
 
 class Person:
     """
-    This is the doc for a persom,
+    This is the doc for a person,
     Is it cool? We'll see.
     """
     personCount = 0
@@ -45,3 +45,4 @@ print(Person.__bases__)
 print(Person.__dict__)
 
 print(p1.__class__)
+print(p1.__getattribute__('name'))
