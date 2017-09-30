@@ -15,9 +15,8 @@ class Book:
 
 class Ebook(Book):
     def __init__(self, pages, author):
-        self.pages = pages
-        self.author = author
         print("Calling Ebook constructor")
+        super(Ebook, self).__init__(pages, author)
 
     def ebookMethod(self):
         print("Calling ebook method")
