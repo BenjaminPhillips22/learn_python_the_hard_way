@@ -1,6 +1,7 @@
+# Symbol Review
+
 # %%
 
-# Symbol Review
 try:
     assert False, "My cool error message!"
 except AssertionError:
