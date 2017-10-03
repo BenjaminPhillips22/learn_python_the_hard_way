@@ -18,8 +18,8 @@ class Child():
 
     def eatXPiecesOfChocolate(self, x):
         for i in range(x):
-            self.choc.eatPiece()
         print(f"\nYou now have {getattr(self.choc, 'numberOfPiecesLeft')}" +
+            self.choc.eatPiece()
               " pieces of chocolate left.\n")
 
 
