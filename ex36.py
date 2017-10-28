@@ -29,7 +29,7 @@ while True:
             exit(0)
         else:
             print("""To win the game,
-            you need two dollars for every year that you have lived""")
+you need exactly two dollars for every year that you have lived""")
     elif choice == 'b':
         print("How much money will you deposit?")
         money_to_deposit = int(input("> "))
